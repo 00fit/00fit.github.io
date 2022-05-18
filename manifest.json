@@ -1,0 +1,24 @@
+{
+    "name": "筑暻卖萌屋",
+    "short_name": "筑暻卖萌屋",
+    "description": "Nousbuild Website PWA",
+    "icons": [
+        {
+            "src": "https://www.nousbuild.org/pwa@192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://www.nousbuild.org/pwa@512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#FFE8E7",
+    "theme_color": "#FFE8E7",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "/",
+    "scope": "/"
+}
