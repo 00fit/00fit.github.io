@@ -25,7 +25,7 @@ self.addEventListener('activate', function(e) {
   // 判断地址是不是需要实时去请求，是就继续发送请求
   console.log('Activate event')
   e.waitUntil(
-    Promise.all(
+    Promise(
       caches.keys().then(cacheNames => {
         return cacheNames.map(name => {
           if (name !== cacheStorageKey) {
