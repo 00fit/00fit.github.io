@@ -218,11 +218,6 @@
       "sizes": "58x58"
     },
     {
-      "src": "meta/ios/touchicon-114x114.png",
-      "type": "image/png",
-      "sizes": "114x114"
-    },
-    {
       "src": "meta/ios/touchicon-120x120.png",
       "type": "image/png",
       "sizes": "120x120"
